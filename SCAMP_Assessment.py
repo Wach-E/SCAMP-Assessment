@@ -4,7 +4,7 @@ try:
     n = input("Enter the number of values you want in your sequence: ")
     n = int(n)
     if n < 1:
-        n = input("Please enter a value greater zero: ")
+        n = input("Please enter a value greater than zero: ")
         n = int(n)
 except ValueError:
     n = input("The value you entered is invalid, please enter a positive integer value: ")
