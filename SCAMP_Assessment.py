@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+from getpass import getuser as user
+
 fib = [ ]
 
 try:
@@ -29,5 +32,7 @@ def fibonacci(n):
             
 fibonacci(n)
 
+print("""\nHello, {}! \n I'm glad you decided to run my code on the 
+Fibonacci sequence. \n""".format(user()))
 
 print(f"Your requested fibonacci sequence with {n} term is: {fib} ")
